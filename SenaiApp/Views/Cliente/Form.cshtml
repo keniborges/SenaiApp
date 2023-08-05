@@ -1,1 +1,27 @@
-﻿fdsfkdsafjkl
+﻿@using SenaiApp.Domain.Entidades;
+@using Microsoft.AspNetCore.Mvc.ViewFeatures;
+@using SenaiApp.Domain.Enums;
+@model Cliente
+
+
+<form class="row g-3">
+    <div class="col-md-6">
+        <label class="form-label" asp-for="Nome"></label>
+        <input type="text" class="form-control" asp-for="Nome" >
+    </div>
+    <div class="col-md-6">
+        <label class="form-label" asp-for="Sobrenome"></label>
+        <input type="text" class="form-control" asp-for="Sobrenome">
+    </div>
+    <div class="col-6">
+        <label class="form-label" asp-for="Nascimento"></label>
+        <input type="text" class="form-control" asp-for="Nascimento">
+    </div>
+    <div class="col-6">
+        <label class="form-label" asp-for="Sexo"></label>
+        <select asp-for="Sexo" class="form-control" asp-items="Html.GetEnumSelectList<SexoEnum>()"></select>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Salvar</button>
+    </div>
+</form>

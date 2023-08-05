@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SenaiApp.Repository\SenaiApp.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

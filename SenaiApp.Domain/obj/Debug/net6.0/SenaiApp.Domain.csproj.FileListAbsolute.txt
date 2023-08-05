@@ -1,0 +1,12 @@
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\bin\Debug\net6.0\SenaiApp.Domain.deps.json
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\bin\Debug\net6.0\SenaiApp.Domain.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\bin\Debug\net6.0\SenaiApp.Domain.pdb
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\obj\Debug\net6.0\SenaiApp.Domain.csproj.AssemblyReference.cache
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\obj\Debug\net6.0\SenaiApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\obj\Debug\net6.0\SenaiApp.Domain.AssemblyInfoInputs.cache
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\obj\Debug\net6.0\SenaiApp.Domain.AssemblyInfo.cs
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\obj\Debug\net6.0\SenaiApp.Domain.csproj.CoreCompileInputs.cache
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\obj\Debug\net6.0\SenaiApp.Domain.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\obj\Debug\net6.0\refint\SenaiApp.Domain.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\obj\Debug\net6.0\SenaiApp.Domain.pdb
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp.Domain\obj\Debug\net6.0\ref\SenaiApp.Domain.dll
