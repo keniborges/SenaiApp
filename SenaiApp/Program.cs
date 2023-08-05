@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using SenaiApp.Repository.Context;
+using System;
+
 namespace SenaiApp
 {
 	public class Program
@@ -8,6 +12,17 @@ namespace SenaiApp
 
 			// Add services to the container.
 			builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+			#region Injeção de Dependência
+
+			//builder.Services.AddScoped<IPessoaService, PessoaService>();
+				//builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+			builder.Services.AddDbContext<SenaiAppContext>(options =>
+				options.UseNpgsql(builder.Configuration.GetValue<string>("ConnectionStrings:AppSenai")));
+
+			#endregion
+
 
 			var app = builder.Build();
 

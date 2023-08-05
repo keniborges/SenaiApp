@@ -183,7 +183,6 @@ D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\refs\System.
 D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\refs\System.Data.dll
 D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\refs\System.Diagnostics.Contracts.dll
 D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\refs\System.Diagnostics.Debug.dll
-D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\refs\System.Diagnostics.DiagnosticSource.dll
 D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\refs\System.Diagnostics.EventLog.dll
 D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\refs\System.Diagnostics.FileVersionInfo.dll
 D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\refs\System.Diagnostics.Process.dll
@@ -352,3 +351,17 @@ D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\zh-Hans\Micr
 D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\obj\Debug\net6.0\SenaiApp.MvcApplicationPartsAssemblyInfo.cs
 D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\obj\Debug\net6.0\SenaiApp.csproj.CopyComplete
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\Humanizer.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\Npgsql.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\SenaiApp.Domain.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\SenaiApp.Repository.dll
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\SenaiApp.Repository.pdb
+D:\Workspace\Senai\2023\SenaiApp\SenaiApp\SenaiApp\bin\Debug\net6.0\SenaiApp.Domain.pdb

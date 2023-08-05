@@ -4,14 +4,14 @@
     "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp\\SenaiApp.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp\\SenaiApp.csproj": {
+    "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Domain\\SenaiApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp\\SenaiApp.csproj",
-        "projectName": "SenaiApp",
-        "projectPath": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp\\SenaiApp.csproj",
+        "projectUniqueName": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Domain\\SenaiApp.Domain.csproj",
+        "projectName": "SenaiApp.Domain",
+        "projectPath": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Domain\\SenaiApp.Domain.csproj",
         "packagesPath": "C:\\Users\\kenib\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp\\obj\\",
+        "outputPath": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -43,8 +43,150 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Repository\\SenaiApp.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Repository\\SenaiApp.Repository.csproj",
+        "projectName": "SenaiApp.Repository",
+        "projectPath": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Repository\\SenaiApp.Repository.csproj",
+        "packagesPath": "C:\\Users\\kenib\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kenib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Domain\\SenaiApp.Domain.csproj": {
+                "projectPath": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Domain\\SenaiApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp\\SenaiApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp\\SenaiApp.csproj",
+        "projectName": "SenaiApp",
+        "projectPath": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp\\SenaiApp.csproj",
+        "packagesPath": "C:\\Users\\kenib\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kenib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Repository\\SenaiApp.Repository.csproj": {
+                "projectPath": "D:\\Workspace\\Senai\\2023\\SenaiApp\\SenaiApp\\SenaiApp.Repository\\SenaiApp.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.20, )"
             }
